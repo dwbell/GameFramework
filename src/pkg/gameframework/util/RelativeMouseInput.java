@@ -27,7 +27,6 @@ public class RelativeMouseInput
         try {
             robot = new Robot();
         } catch (Exception e) {
-            // Handle exception [game specific]
             e.printStackTrace();
         }
 

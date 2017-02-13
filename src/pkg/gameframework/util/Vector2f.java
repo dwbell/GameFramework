@@ -9,25 +9,25 @@ public class Vector2f {
     public Vector2f() {
         this.x = 0.0f;
         this.y = 0.0f;
-        this.w = 1.0f; 
+        this.w = 1.0f;
     }
 
     public Vector2f(Vector2f v) {
         this.x = v.x;
         this.y = v.y;
-        this.w = v.w; 
+        this.w = v.w;
     }
 
     public Vector2f(float x, float y) {
         this.x = x;
         this.y = y;
-        this.w = 1.0f; 
+        this.w = 1.0f;
     }
 
     public Vector2f(float x, float y, float w) {
         this.x = x;
         this.y = y;
-        this.w = w; 
+        this.w = w;
     }
 
     public void translate(float tx, float ty) {
